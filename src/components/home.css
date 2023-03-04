@@ -1,0 +1,71 @@
+.neoBody {
+    width: 60vw;
+    margin: auto;
+    padding: 2vw;
+}
+
+#answer {
+    width: 25rem;
+    height: 2rem;
+    padding: 4px 8px;
+    font-size: 1.15em;
+}
+
+.neoQuestionContainer {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#neoForm {
+    margin: 5vh 3vw;
+    display: flex;
+    align-items: center;
+}
+#neoForm + p{
+    text-align: center;
+}
+#neoQuestion{
+    background-color: rgb(33, 36, 37);
+    color: white;
+    margin: 2vh 2vw;
+    font-size: 1.15em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.neoPrevNextButtons {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.neoWelcomeContainer {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    height: 60vh;
+    transform: translateY(20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.startBtn{
+    background-color: green;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    margin-top: 2vh;
+}
+@media screen and (max-width: 600px) {
+    .neoBody {
+        width: 90vw;
+        margin: auto;
+    }
+}
